@@ -41,8 +41,8 @@ function setup() {
   );
 
   arrows = new PlayerArrow(
-    340,
-    playerBase.position.y - 112,
+    playerArcher.body.position.x,
+    playerArcher.body.position.y,
     120,
     120
   )
